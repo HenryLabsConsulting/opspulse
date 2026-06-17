@@ -1,0 +1,88 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1180" height="720" viewBox="0 0 1180 720" font-family="ui-sans-serif,system-ui,Segoe UI,Roboto,Arial,sans-serif">
+<rect width="1180" height="720" fill="#f5f6f8"/>
+<rect width="244" height="720" fill="#111726"/>
+<rect x="18" y="22" width="30" height="30" rx="8" fill="#2f6df6"/>
+<text x="56" y="43" fill="#ffffff" font-size="19" font-weight="700">OpsPulse</text>
+<text x="18" y="70" fill="#8b93a7" font-size="12">Northwind Field Services</text>
+<rect x="14" y="92" width="216" height="34" rx="8" fill="#2f6df6" fill-opacity="0.18"/>
+<text x="28" y="114" fill="#ffffff" font-size="14" font-weight="500">Overview</text>
+<text x="28" y="158" fill="#8b93a7" font-size="14" font-weight="500">Operations</text>
+<text x="28" y="202" fill="#8b93a7" font-size="14" font-weight="500">Data Explorer</text>
+<text x="18" y="678" fill="#8b93a7" font-size="11">Demo on 100% synthetic data.</text>
+<text x="18" y="696" fill="#8b93a7" font-size="11">Built by HenryLabs Consulting.</text>
+<text x="284" y="56" fill="#1a2233" font-size="24" font-weight="700">Overview</text>
+<text x="284" y="80" fill="#5b6577" font-size="14">Revenue, throughput, and service quality at a glance.</text>
+<rect x="284" y="104" width="196" height="104" rx="12" fill="#ffffff" stroke="#e4e7ec"/>
+<text x="302" y="134" fill="#5b6577" font-size="13">Revenue (30d)</text>
+<text x="302" y="166" fill="#1a2233" font-size="26" font-weight="700">$608,550</text>
+<text x="302" y="190" fill="#11875a" font-size="13" font-weight="600">▲ +3.0%</text>
+<rect x="496" y="104" width="196" height="104" rx="12" fill="#ffffff" stroke="#e4e7ec"/>
+<text x="514" y="134" fill="#5b6577" font-size="13">Jobs Completed (30d)</text>
+<text x="514" y="166" fill="#1a2233" font-size="26" font-weight="700">587</text>
+<text x="514" y="190" fill="#11875a" font-size="13" font-weight="600">▲ +7.7%</text>
+<rect x="708" y="104" width="196" height="104" rx="12" fill="#ffffff" stroke="#e4e7ec"/>
+<text x="726" y="134" fill="#5b6577" font-size="13">First-Time-Fix Rate</text>
+<text x="726" y="166" fill="#1a2233" font-size="26" font-weight="700">78.2%</text>
+<text x="726" y="190" fill="#c0392b" font-size="13" font-weight="600">▼ -0.3 pts</text>
+<rect x="920" y="104" width="196" height="104" rx="12" fill="#ffffff" stroke="#e4e7ec"/>
+<text x="938" y="134" fill="#5b6577" font-size="13">Average Ticket</text>
+<text x="938" y="166" fill="#1a2233" font-size="26" font-weight="700">$1,037</text>
+<text x="938" y="190" fill="#c0392b" font-size="13" font-weight="600">▼ -4.4%</text>
+<rect x="284" y="232" width="540" height="408" rx="12" fill="#ffffff" stroke="#e4e7ec"/>
+<text x="304" y="262" fill="#1a2233" font-size="14" font-weight="600">Revenue by Month</text>
+<line x1="340" y1="288" x2="796" y2="288" stroke="#eef0f4"/>
+<line x1="340" y1="363" x2="796" y2="363" stroke="#eef0f4"/>
+<line x1="340" y1="438" x2="796" y2="438" stroke="#eef0f4"/>
+<line x1="340" y1="513" x2="796" y2="513" stroke="#eef0f4"/>
+<line x1="340" y1="588" x2="796" y2="588" stroke="#eef0f4"/>
+<polygon points="340.0,588.0 340.0,473.0 381.5,412.1 422.9,510.3 464.4,533.6 505.8,545.3 547.3,504.7 588.7,411.2 630.2,318.4 671.6,406.7 713.1,455.9 754.5,507.4 796.0,444.1 796.0,588.0" fill="#2f6df6" fill-opacity="0.14"/>
+<polyline points="340.0,473.0 381.5,412.1 422.9,510.3 464.4,533.6 505.8,545.3 547.3,504.7 588.7,411.2 630.2,318.4 671.6,406.7 713.1,455.9 754.5,507.4 796.0,444.1" fill="none" stroke="#2f6df6" stroke-width="2.5"/>
+<circle cx="340.0" cy="473.0" r="3" fill="#2f6df6"/>
+<circle cx="381.5" cy="412.1" r="3" fill="#2f6df6"/>
+<circle cx="422.9" cy="510.3" r="3" fill="#2f6df6"/>
+<circle cx="464.4" cy="533.6" r="3" fill="#2f6df6"/>
+<circle cx="505.8" cy="545.3" r="3" fill="#2f6df6"/>
+<circle cx="547.3" cy="504.7" r="3" fill="#2f6df6"/>
+<circle cx="588.7" cy="411.2" r="3" fill="#2f6df6"/>
+<circle cx="630.2" cy="318.4" r="3" fill="#2f6df6"/>
+<circle cx="671.6" cy="406.7" r="3" fill="#2f6df6"/>
+<circle cx="713.1" cy="455.9" r="3" fill="#2f6df6"/>
+<circle cx="754.5" cy="507.4" r="3" fill="#2f6df6"/>
+<circle cx="796.0" cy="444.1" r="3" fill="#2f6df6"/>
+<text x="340" y="610" fill="#5b6577" font-size="11" text-anchor="middle">Jun</text>
+<text x="381" y="610" fill="#5b6577" font-size="11" text-anchor="middle">Jul</text>
+<text x="423" y="610" fill="#5b6577" font-size="11" text-anchor="middle">Aug</text>
+<text x="464" y="610" fill="#5b6577" font-size="11" text-anchor="middle">Sep</text>
+<text x="506" y="610" fill="#5b6577" font-size="11" text-anchor="middle">Oct</text>
+<text x="547" y="610" fill="#5b6577" font-size="11" text-anchor="middle">Nov</text>
+<text x="589" y="610" fill="#5b6577" font-size="11" text-anchor="middle">Dec</text>
+<text x="630" y="610" fill="#5b6577" font-size="11" text-anchor="middle">Jan</text>
+<text x="672" y="610" fill="#5b6577" font-size="11" text-anchor="middle">Feb</text>
+<text x="713" y="610" fill="#5b6577" font-size="11" text-anchor="middle">Mar</text>
+<text x="755" y="610" fill="#5b6577" font-size="11" text-anchor="middle">Apr</text>
+<text x="796" y="610" fill="#5b6577" font-size="11" text-anchor="middle">May</text>
+<text x="330" y="292" fill="#5b6577" font-size="11" text-anchor="end">$790k</text>
+<text x="330" y="367" fill="#5b6577" font-size="11" text-anchor="end">$715k</text>
+<text x="330" y="442" fill="#5b6577" font-size="11" text-anchor="end">$640k</text>
+<text x="330" y="517" fill="#5b6577" font-size="11" text-anchor="end">$565k</text>
+<text x="330" y="592" fill="#5b6577" font-size="11" text-anchor="end">$490k</text>
+<rect x="840" y="232" width="316" height="408" rx="12" fill="#ffffff" stroke="#e4e7ec"/>
+<circle cx="866" cy="259" r="5" fill="#2f6df6"/>
+<text x="878" y="264" fill="#1a2233" font-size="14" font-weight="600">Daily Insights</text>
+<rect x="1078" y="250" width="58" height="22" rx="11" fill="#eaf1ff"/>
+<text x="1107" y="265" fill="#2f6df6" font-size="11" font-weight="700" text-anchor="middle">DEMO</text>
+<text x="860" y="296" fill="#1a2233" font-size="13.5">Revenue eased to $136,149 for the week</text>
+<text x="860" y="318" fill="#1a2233" font-size="13.5">ending 2026-06-15, -6.5% against the prior</text>
+<text x="860" y="340" fill="#1a2233" font-size="13.5">week. The team completed 129 jobs (-8.5%</text>
+<text x="860" y="362" fill="#1a2233" font-size="13.5">week over week), at an average ticket of</text>
+<text x="860" y="384" fill="#1a2233" font-size="13.5">$1,055. First-time-fix landed at 79.8%, an</text>
+<text x="860" y="406" fill="#1a2233" font-size="13.5">improvement of 1.1 points. Furnace</text>
+<text x="860" y="428" fill="#1a2233" font-size="13.5">Installation led revenue at $39,600, and</text>
+<text x="860" y="450" fill="#1a2233" font-size="13.5">Elizabeth Johnson carried the most</text>
+<text x="860" y="472" fill="#1a2233" font-size="13.5">completed jobs (11). The call center</text>
+<text x="860" y="494" fill="#1a2233" font-size="13.5">booked 52.7% of calls. Momentum is steady;</text>
+<text x="860" y="516" fill="#1a2233" font-size="13.5">keep senior technicians on the high-ticket</text>
+<text x="860" y="538" fill="#1a2233" font-size="13.5">installation work where first-time-fix is</text>
+<text x="860" y="560" fill="#1a2233" font-size="13.5">strongest.</text>
+<text x="860" y="624" fill="#5b6577" font-size="11">Set ANTHROPIC_API_KEY for a live Claude summary.</text>
+</svg>

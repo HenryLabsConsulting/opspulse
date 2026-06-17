@@ -1,0 +1,54 @@
+# OpsPulse runs with one command: docker compose up.
+#
+#   db   -> PostgreSQL 16 warehouse
+#   etl  -> loads the synthetic data, then exits
+#   app  -> Next.js dashboard on http://localhost:3000
+#
+# The app waits for the ETL to finish, which waits for the database to be ready.
+
+services:
+  db:
+    image: postgres:16-alpine
+    environment:
+      POSTGRES_USER: opspulse
+      POSTGRES_PASSWORD: opspulse
+      POSTGRES_DB: opspulse
+    ports:
+      - "5432:5432"
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U opspulse"]
+      interval: 5s
+      timeout: 3s
+      retries: 12
+
+  etl:
+    build:
+      context: .
+      dockerfile: etl/Dockerfile
+    environment:
+      DATABASE_URL: postgresql://opspulse:opspulse@db:5432/opspulse
+    depends_on:
+      db:
+        condition: service_healthy
+    restart: "no"
+
+  app:
+    build:
+      context: ./web
+      dockerfile: Dockerfile
+    environment:
+      DATABASE_URL: postgresql://opspulse:opspulse@db:5432/opspulse
+      # Optional. With no key the Daily Insights panel serves a committed
+      # sample. Set ANTHROPIC_API_KEY (here or in a .env file) for a live
+      # Claude-written summary.
+      ANTHROPIC_API_KEY: ${ANTHROPIC_API_KEY:-}
+    ports:
+      - "3000:3000"
+    depends_on:
+      etl:
+        condition: service_completed_successfully
+
+volumes:
+  pgdata:

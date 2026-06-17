@@ -1,0 +1,63 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+jobs:
+  data-pipeline:
+    name: Data pipeline (lint + tests)
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install Python tooling
+        run: pip install ruff pytest
+
+      - name: Lint with ruff
+        run: ruff check generator etl
+
+      - name: Run Python tests
+        run: pytest -q generator etl
+
+      - name: Verify the generator reproduces the committed seed data
+        run: |
+          python generator/generate.py --months 18 --out /tmp/seed
+          diff -r data/seed /tmp/seed
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: Data integrity tests
+        run: node --test tests/data_integrity.test.mjs
+
+  web:
+    name: Web app (lint + build)
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: web
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+          cache: npm
+          cache-dependency-path: web/package-lock.json
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Lint
+        run: npm run lint
+
+      - name: Build
+        run: npm run build
