@@ -345,8 +345,10 @@ def generate(months: int, out_dir: Path) -> dict[str, int]:
 
 
 def _write_csv(path: Path, fieldnames: list[str], rows: list[dict]) -> None:
+    # Write LF line endings on every platform so the committed seed data and
+    # CI-regenerated data compare byte for byte.
     with path.open("w", newline="", encoding="utf-8") as f:
-        writer = csv.DictWriter(f, fieldnames=fieldnames)
+        writer = csv.DictWriter(f, fieldnames=fieldnames, lineterminator="\n")
         writer.writeheader()
         writer.writerows(rows)
 
