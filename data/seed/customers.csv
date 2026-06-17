@@ -1,0 +1,601 @@
+customer_id,name,segment,city,region,signup_date
+1,Robert Taylor,Residential,Brookfield,East,2022-05-27
+2,Karen Anderson,Residential,Fairview,South,2024-03-29
+3,Harbor Retail,Commercial,Glenwood,South,2025-08-31
+4,Anchor Group,Commercial,Pinehurst,Central,2025-07-01
+5,Richard Thomas,Residential,Riverton,East,2023-01-08
+6,Harbor Retail,Commercial,Fairview,South,2024-06-22
+7,Apex Logistics,Commercial,Lakeshore,North,2024-02-28
+8,Patricia Williams,Residential,Cedar Falls,West,2023-06-21
+9,Sandra Jackson,Residential,Lakeshore,North,2023-04-04
+10,Linda Taylor,Residential,Pinehurst,Central,2023-09-23
+11,William Williams,Residential,Lakeshore,North,2025-03-19
+12,Ashley Williams,Residential,Riverton,East,2025-07-30
+13,Summit Group,Commercial,Pinehurst,Central,2024-02-14
+14,Apex Group,Commercial,Northwind,North,2023-11-19
+15,Betty Jackson,Residential,Glenwood,South,2022-11-07
+16,Summit Retail,Commercial,Pinehurst,Central,2026-01-24
+17,Harbor Group,Commercial,Oakdale,Central,2025-06-22
+18,Anchor Retail,Commercial,Oakdale,Central,2024-10-01
+19,Karen Wilson,Residential,Northwind,North,2022-10-31
+20,Summit Retail,Commercial,Brookfield,East,2025-02-27
+21,Robert Sanchez,Residential,Pinehurst,Central,2023-11-03
+22,Mark Johnson,Residential,Fairview,South,2025-02-17
+23,Sarah Williams,Residential,Riverton,East,2024-09-18
+24,Charles Lopez,Residential,Northwind,North,2023-07-14
+25,Thomas Wilson,Residential,Fairview,South,2024-02-16
+26,Thomas Garcia,Residential,Brookfield,East,2023-12-27
+27,Vista Group,Commercial,Maple Grove,West,2022-12-27
+28,Apex Properties,Commercial,Glenwood,South,2023-04-25
+29,Patricia Lopez,Residential,Glenwood,South,2023-02-12
+30,Harbor Logistics,Commercial,Fairview,South,2025-10-18
+31,Ashley Clark,Residential,Cedar Falls,West,2026-04-05
+32,Nancy Gonzalez,Residential,Oakdale,Central,2022-05-21
+33,Michael Jackson,Residential,Cedar Falls,West,2022-11-06
+34,Anthony Harris,Residential,Brookfield,East,2022-06-27
+35,Maria White,Residential,Maple Grove,West,2024-12-10
+36,Lisa Williams,Residential,Brookfield,East,2024-02-18
+37,Jessica Lewis,Residential,Lakeshore,North,2022-05-15
+38,John White,Residential,Fairview,South,2026-03-17
+39,Matthew Robinson,Residential,Fairview,South,2025-03-01
+40,Charles Martinez,Residential,Northwind,North,2026-05-02
+41,Harbor Properties,Commercial,Cedar Falls,West,2026-03-10
+42,Richard Gonzalez,Residential,Fairview,South,2023-06-27
+43,Harbor Group,Commercial,Oakdale,Central,2026-03-31
+44,Vista Retail,Commercial,Brookfield,East,2023-12-04
+45,Sandra Clark,Residential,Fairview,South,2023-05-06
+46,Anchor Group,Commercial,Glenwood,South,2022-10-07
+47,David White,Residential,Fairview,South,2025-03-31
+48,Karen Thomas,Residential,Riverton,East,2025-07-15
+49,Barbara White,Residential,Glenwood,South,2022-07-26
+50,Richard Lewis,Residential,Cedar Falls,West,2025-07-12
+51,Nancy Johnson,Residential,Maple Grove,West,2026-04-18
+52,Jessica Thompson,Residential,Pinehurst,Central,2025-01-29
+53,Betty Lopez,Residential,Maple Grove,West,2024-04-07
+54,David Lewis,Residential,Oakdale,Central,2022-11-07
+55,Maria Smith,Residential,Northwind,North,2024-09-03
+56,Robert Lee,Residential,Northwind,North,2024-10-24
+57,Mark Lee,Residential,Pinehurst,Central,2024-04-14
+58,Elizabeth Hernandez,Residential,Pinehurst,Central,2024-12-12
+59,Anchor Group,Commercial,Glenwood,South,2025-07-22
+60,Barbara Lee,Residential,Glenwood,South,2022-08-20
+61,Barbara Taylor,Residential,Oakdale,Central,2025-08-23
+62,Elizabeth Martin,Residential,Riverton,East,2024-06-22
+63,Karen Ramirez,Residential,Brookfield,East,2025-03-04
+64,William Sanchez,Residential,Oakdale,Central,2023-09-04
+65,Mark Brown,Residential,Northwind,North,2025-05-08
+66,Apex Logistics,Commercial,Glenwood,South,2024-05-22
+67,Sarah White,Residential,Northwind,North,2022-08-25
+68,Susan Lopez,Residential,Oakdale,Central,2023-03-07
+69,Matthew Perez,Residential,Lakeshore,North,2024-10-11
+70,Vista Holdings,Commercial,Lakeshore,North,2025-08-02
+71,Anchor Logistics,Commercial,Riverton,East,2026-01-24
+72,Harbor Retail,Commercial,Brookfield,East,2024-12-27
+73,Anthony White,Residential,Oakdale,Central,2022-12-23
+74,Harbor Retail,Commercial,Riverton,East,2023-03-10
+75,Robert Taylor,Residential,Riverton,East,2025-05-28
+76,Jessica Brown,Residential,Maple Grove,West,2023-06-30
+77,Elizabeth Williams,Residential,Glenwood,South,2023-02-12
+78,Joseph Davis,Residential,Cedar Falls,West,2022-05-18
+79,Matthew Gonzalez,Residential,Fairview,South,2024-03-30
+80,Ashley Martinez,Residential,Cedar Falls,West,2023-05-09
+81,Susan Hernandez,Residential,Maple Grove,West,2022-07-28
+82,Charles Davis,Residential,Pinehurst,Central,2023-09-24
+83,Summit Group,Commercial,Northwind,North,2023-03-15
+84,Mark Lopez,Residential,Fairview,South,2023-03-09
+85,Robert White,Residential,Cedar Falls,West,2024-11-06
+86,Lisa Robinson,Residential,Glenwood,South,2025-01-23
+87,Vista Group,Commercial,Riverton,East,2024-03-03
+88,Steven Harris,Residential,Oakdale,Central,2024-07-13
+89,Nancy Moore,Residential,Oakdale,Central,2023-10-06
+90,Summit Logistics,Commercial,Oakdale,Central,2023-09-13
+91,Harbor Logistics,Commercial,Northwind,North,2023-11-07
+92,Betty Johnson,Residential,Oakdale,Central,2024-03-06
+93,Linda Thomas,Residential,Riverton,East,2025-05-24
+94,Jennifer Thomas,Residential,Lakeshore,North,2022-12-11
+95,Jessica Martinez,Residential,Maple Grove,West,2025-11-06
+96,Ashley Johnson,Residential,Cedar Falls,West,2023-06-08
+97,Jennifer Wilson,Residential,Northwind,North,2024-10-19
+98,Steven Thompson,Residential,Northwind,North,2024-01-30
+99,Summit Logistics,Commercial,Fairview,South,2026-02-04
+100,Anchor Logistics,Commercial,Maple Grove,West,2023-10-24
+101,Linda Thompson,Residential,Pinehurst,Central,2024-08-04
+102,Mark Davis,Residential,Pinehurst,Central,2024-12-29
+103,Matthew Harris,Residential,Brookfield,East,2023-05-30
+104,Jennifer Miller,Residential,Pinehurst,Central,2022-12-05
+105,Karen Ramirez,Residential,Brookfield,East,2022-11-15
+106,William Ramirez,Residential,Glenwood,South,2024-06-04
+107,Michael Anderson,Residential,Brookfield,East,2024-03-25
+108,Anchor Retail,Commercial,Brookfield,East,2022-06-28
+109,Vista Retail,Commercial,Pinehurst,Central,2025-01-08
+110,Karen Robinson,Residential,Pinehurst,Central,2023-10-06
+111,Michael Lopez,Residential,Pinehurst,Central,2022-06-25
+112,Joseph Williams,Residential,Glenwood,South,2024-03-25
+113,Apex Logistics,Commercial,Maple Grove,West,2024-09-19
+114,Susan Harris,Residential,Glenwood,South,2022-10-01
+115,Maria Lee,Residential,Riverton,East,2024-08-20
+116,Summit Properties,Commercial,Fairview,South,2023-05-10
+117,Apex Group,Commercial,Glenwood,South,2025-06-24
+118,Thomas Johnson,Residential,Maple Grove,West,2025-04-14
+119,Summit Holdings,Commercial,Lakeshore,North,2024-05-30
+120,John Thomas,Residential,Fairview,South,2023-05-22
+121,Nancy Miller,Residential,Pinehurst,Central,2025-02-05
+122,Anthony White,Residential,Northwind,North,2024-09-18
+123,Matthew Martin,Residential,Pinehurst,Central,2022-09-22
+124,James Martin,Residential,Cedar Falls,West,2026-04-05
+125,Summit Properties,Commercial,Pinehurst,Central,2023-01-09
+126,Thomas Clark,Residential,Maple Grove,West,2022-09-14
+127,Charles Thomas,Residential,Brookfield,East,2024-05-25
+128,Matthew Hernandez,Residential,Glenwood,South,2024-04-24
+129,Apex Properties,Commercial,Pinehurst,Central,2025-05-16
+130,Apex Retail,Commercial,Pinehurst,Central,2025-03-06
+131,Thomas Sanchez,Residential,Pinehurst,Central,2026-04-03
+132,Nancy Perez,Residential,Brookfield,East,2023-08-20
+133,Anchor Group,Commercial,Pinehurst,Central,2023-09-16
+134,Vista Logistics,Commercial,Lakeshore,North,2025-08-06
+135,Jessica Johnson,Residential,Maple Grove,West,2022-10-12
+136,Jennifer Thomas,Residential,Lakeshore,North,2023-05-21
+137,Maria Johnson,Residential,Maple Grove,West,2025-11-07
+138,Patricia Perez,Residential,Maple Grove,West,2022-08-07
+139,Vista Holdings,Commercial,Oakdale,Central,2025-08-17
+140,Anchor Holdings,Commercial,Fairview,South,2025-08-08
+141,Matthew Robinson,Residential,Riverton,East,2025-09-28
+142,Steven Hernandez,Residential,Northwind,North,2024-06-05
+143,James Lopez,Residential,Northwind,North,2023-02-16
+144,David Davis,Residential,Oakdale,Central,2025-01-21
+145,Nancy Johnson,Residential,Pinehurst,Central,2023-07-06
+146,Linda White,Residential,Northwind,North,2024-07-11
+147,Nancy Wilson,Residential,Brookfield,East,2025-06-24
+148,Michael Taylor,Residential,Oakdale,Central,2023-12-23
+149,Charles Hernandez,Residential,Northwind,North,2024-06-15
+150,John Smith,Residential,Pinehurst,Central,2024-08-19
+151,Steven Smith,Residential,Maple Grove,West,2023-12-25
+152,Anchor Logistics,Commercial,Glenwood,South,2024-02-24
+153,William Brown,Residential,Brookfield,East,2025-01-25
+154,James Martin,Residential,Cedar Falls,West,2025-01-03
+155,Anthony Johnson,Residential,Riverton,East,2023-01-02
+156,Charles Gonzalez,Residential,Cedar Falls,West,2024-09-13
+157,Apex Group,Commercial,Fairview,South,2025-09-18
+158,William Thomas,Residential,Northwind,North,2025-04-04
+159,Anthony Wilson,Residential,Lakeshore,North,2024-08-08
+160,Apex Retail,Commercial,Maple Grove,West,2026-03-23
+161,Lisa Rodriguez,Residential,Brookfield,East,2023-04-26
+162,Daniel Clark,Residential,Lakeshore,North,2024-01-29
+163,Sandra Gonzalez,Residential,Oakdale,Central,2023-09-18
+164,Jennifer Harris,Residential,Pinehurst,Central,2024-11-19
+165,Susan Wilson,Residential,Riverton,East,2023-09-17
+166,Maria Smith,Residential,Maple Grove,West,2025-09-02
+167,Barbara Garcia,Residential,Maple Grove,West,2022-11-30
+168,Karen Rodriguez,Residential,Brookfield,East,2024-11-15
+169,Jessica Anderson,Residential,Northwind,North,2023-08-16
+170,Maria Thomas,Residential,Brookfield,East,2025-03-15
+171,Robert Jones,Residential,Riverton,East,2024-08-13
+172,Susan White,Residential,Northwind,North,2023-07-30
+173,William Martin,Residential,Maple Grove,West,2025-05-27
+174,Apex Properties,Commercial,Oakdale,Central,2023-12-10
+175,Daniel Smith,Residential,Glenwood,South,2022-11-25
+176,Harbor Holdings,Commercial,Lakeshore,North,2023-05-05
+177,Joseph Perez,Residential,Oakdale,Central,2023-04-14
+178,Anchor Logistics,Commercial,Glenwood,South,2023-03-09
+179,Apex Group,Commercial,Northwind,North,2024-03-12
+180,Maria Clark,Residential,Oakdale,Central,2022-09-16
+181,Summit Logistics,Commercial,Cedar Falls,West,2024-11-23
+182,William Lewis,Residential,Maple Grove,West,2024-11-11
+183,Nancy Williams,Residential,Cedar Falls,West,2024-07-04
+184,Summit Group,Commercial,Riverton,East,2023-08-06
+185,Thomas Rodriguez,Residential,Glenwood,South,2022-12-22
+186,Linda Hernandez,Residential,Glenwood,South,2025-08-14
+187,Maria Martin,Residential,Maple Grove,West,2023-01-11
+188,Harbor Retail,Commercial,Pinehurst,Central,2022-12-02
+189,Ashley Wilson,Residential,Brookfield,East,2022-08-06
+190,Daniel Thompson,Residential,Pinehurst,Central,2023-11-23
+191,Richard Wilson,Residential,Maple Grove,West,2023-08-14
+192,Elizabeth Ramirez,Residential,Riverton,East,2023-07-20
+193,Mark Sanchez,Residential,Glenwood,South,2024-09-04
+194,Elizabeth Jones,Residential,Oakdale,Central,2026-01-08
+195,David Clark,Residential,Cedar Falls,West,2023-02-01
+196,Daniel Williams,Residential,Lakeshore,North,2026-01-19
+197,Sandra Martin,Residential,Northwind,North,2026-03-30
+198,Maria Clark,Residential,Fairview,South,2025-09-02
+199,Summit Group,Commercial,Pinehurst,Central,2025-02-18
+200,Robert Lewis,Residential,Glenwood,South,2022-07-30
+201,Elizabeth Wilson,Residential,Riverton,East,2023-11-05
+202,Harbor Holdings,Commercial,Fairview,South,2023-07-28
+203,David Clark,Residential,Maple Grove,West,2023-05-03
+204,Richard Rodriguez,Residential,Riverton,East,2022-10-29
+205,Richard Davis,Residential,Oakdale,Central,2026-04-22
+206,Anchor Logistics,Commercial,Lakeshore,North,2024-01-06
+207,Charles Martin,Residential,Riverton,East,2024-11-26
+208,Richard Davis,Residential,Cedar Falls,West,2026-04-23
+209,Charles Ramirez,Residential,Fairview,South,2023-10-25
+210,Mark Garcia,Residential,Riverton,East,2025-12-23
+211,Robert Martinez,Residential,Pinehurst,Central,2023-08-05
+212,Charles Jackson,Residential,Maple Grove,West,2022-06-09
+213,William Davis,Residential,Lakeshore,North,2025-08-02
+214,Apex Group,Commercial,Maple Grove,West,2023-04-20
+215,Jennifer Harris,Residential,Northwind,North,2024-11-05
+216,Apex Group,Commercial,Oakdale,Central,2024-05-11
+217,Vista Properties,Commercial,Riverton,East,2025-02-04
+218,Matthew Brown,Residential,Oakdale,Central,2025-11-10
+219,Summit Logistics,Commercial,Cedar Falls,West,2025-09-06
+220,Betty Harris,Residential,Lakeshore,North,2026-04-29
+221,Matthew Anderson,Residential,Cedar Falls,West,2023-05-06
+222,Thomas Jones,Residential,Lakeshore,North,2022-09-07
+223,Barbara Anderson,Residential,Lakeshore,North,2025-11-23
+224,David Lewis,Residential,Fairview,South,2025-05-27
+225,Patricia Perez,Residential,Northwind,North,2025-12-23
+226,William Wilson,Residential,Cedar Falls,West,2023-04-04
+227,Jennifer Ramirez,Residential,Fairview,South,2023-07-31
+228,John Taylor,Residential,Riverton,East,2026-03-19
+229,Lisa Lewis,Residential,Lakeshore,North,2026-03-24
+230,Jennifer Perez,Residential,Glenwood,South,2026-05-10
+231,Richard Martinez,Residential,Brookfield,East,2023-08-18
+232,James White,Residential,Cedar Falls,West,2025-09-26
+233,Jessica Thomas,Residential,Fairview,South,2025-12-07
+234,Ashley Garcia,Residential,Pinehurst,Central,2023-08-21
+235,Anchor Properties,Commercial,Maple Grove,West,2025-10-11
+236,Sandra Robinson,Residential,Maple Grove,West,2025-02-11
+237,John Brown,Residential,Riverton,East,2026-02-21
+238,Harbor Properties,Commercial,Lakeshore,North,2023-03-31
+239,Lisa Harris,Residential,Lakeshore,North,2023-04-06
+240,Linda Davis,Residential,Glenwood,South,2023-01-04
+241,Apex Properties,Commercial,Oakdale,Central,2024-11-02
+242,Joseph Robinson,Residential,Maple Grove,West,2022-12-12
+243,Patricia Ramirez,Residential,Pinehurst,Central,2022-06-23
+244,Jennifer White,Residential,Maple Grove,West,2022-11-10
+245,Harbor Retail,Commercial,Brookfield,East,2022-11-28
+246,Richard Lopez,Residential,Northwind,North,2025-10-12
+247,Anchor Holdings,Commercial,Cedar Falls,West,2023-09-26
+248,Summit Group,Commercial,Glenwood,South,2023-09-25
+249,Daniel Lee,Residential,Fairview,South,2022-11-24
+250,Steven White,Residential,Pinehurst,Central,2023-04-12
+251,Linda Sanchez,Residential,Lakeshore,North,2025-01-06
+252,Apex Properties,Commercial,Fairview,South,2024-03-01
+253,Thomas Taylor,Residential,Maple Grove,West,2025-03-21
+254,Harbor Retail,Commercial,Glenwood,South,2026-03-23
+255,Steven Brown,Residential,Riverton,East,2025-09-30
+256,Thomas Johnson,Residential,Pinehurst,Central,2025-02-03
+257,Summit Group,Commercial,Northwind,North,2023-08-02
+258,Apex Logistics,Commercial,Maple Grove,West,2025-07-06
+259,Richard White,Residential,Riverton,East,2025-10-13
+260,James Davis,Residential,Fairview,South,2023-08-01
+261,William Anderson,Residential,Oakdale,Central,2023-08-08
+262,Mark Perez,Residential,Pinehurst,Central,2025-08-20
+263,Thomas Davis,Residential,Oakdale,Central,2026-03-08
+264,Anchor Group,Commercial,Oakdale,Central,2026-04-26
+265,Jennifer Taylor,Residential,Riverton,East,2023-02-04
+266,Thomas Davis,Residential,Fairview,South,2026-03-31
+267,Susan Davis,Residential,Glenwood,South,2025-09-17
+268,Vista Properties,Commercial,Oakdale,Central,2022-09-16
+269,Karen Lewis,Residential,Fairview,South,2023-10-18
+270,Ashley Moore,Residential,Cedar Falls,West,2024-06-21
+271,Joseph Davis,Residential,Oakdale,Central,2024-10-01
+272,Vista Properties,Commercial,Brookfield,East,2026-01-02
+273,Matthew Lee,Residential,Maple Grove,West,2024-04-07
+274,Betty Moore,Residential,Glenwood,South,2022-07-11
+275,Harbor Holdings,Commercial,Pinehurst,Central,2022-10-26
+276,Thomas Garcia,Residential,Brookfield,East,2025-06-25
+277,Jennifer Sanchez,Residential,Fairview,South,2022-10-05
+278,Summit Holdings,Commercial,Northwind,North,2022-11-29
+279,Richard Taylor,Residential,Cedar Falls,West,2025-09-01
+280,Mark Rodriguez,Residential,Glenwood,South,2023-05-01
+281,Linda Garcia,Residential,Riverton,East,2023-07-31
+282,Lisa Gonzalez,Residential,Oakdale,Central,2024-09-23
+283,Michael Hernandez,Residential,Cedar Falls,West,2025-07-09
+284,Vista Holdings,Commercial,Oakdale,Central,2024-06-10
+285,Sarah Smith,Residential,Fairview,South,2025-08-01
+286,David Ramirez,Residential,Pinehurst,Central,2025-11-05
+287,Karen Martinez,Residential,Fairview,South,2022-06-29
+288,William Lopez,Residential,Oakdale,Central,2025-07-15
+289,Sarah Sanchez,Residential,Cedar Falls,West,2026-01-05
+290,Mark Davis,Residential,Northwind,North,2022-12-09
+291,Betty Perez,Residential,Northwind,North,2025-01-05
+292,Elizabeth Robinson,Residential,Cedar Falls,West,2023-06-18
+293,Nancy Garcia,Residential,Riverton,East,2023-05-12
+294,Richard Moore,Residential,Northwind,North,2024-08-17
+295,Richard White,Residential,Brookfield,East,2023-09-14
+296,Betty Jackson,Residential,Fairview,South,2024-12-27
+297,David Robinson,Residential,Pinehurst,Central,2024-09-25
+298,Linda Miller,Residential,Fairview,South,2026-02-28
+299,Joseph Williams,Residential,Glenwood,South,2026-01-31
+300,Vista Logistics,Commercial,Lakeshore,North,2025-01-13
+301,Steven Clark,Residential,Fairview,South,2025-04-11
+302,Maria Lee,Residential,Northwind,North,2024-05-25
+303,Vista Holdings,Commercial,Northwind,North,2023-08-01
+304,Summit Holdings,Commercial,Cedar Falls,West,2023-03-04
+305,Karen Johnson,Residential,Northwind,North,2025-03-16
+306,Matthew Robinson,Residential,Northwind,North,2022-10-05
+307,John Wilson,Residential,Fairview,South,2025-10-09
+308,Nancy Lewis,Residential,Oakdale,Central,2023-03-26
+309,Vista Retail,Commercial,Oakdale,Central,2024-03-16
+310,Anchor Retail,Commercial,Fairview,South,2024-10-02
+311,Robert Williams,Residential,Oakdale,Central,2023-01-31
+312,Steven Lee,Residential,Brookfield,East,2023-03-11
+313,William Brown,Residential,Fairview,South,2025-04-10
+314,Linda Robinson,Residential,Glenwood,South,2023-02-01
+315,Apex Holdings,Commercial,Pinehurst,Central,2025-12-10
+316,Lisa Sanchez,Residential,Cedar Falls,West,2022-06-08
+317,William Gonzalez,Residential,Glenwood,South,2024-08-31
+318,Matthew White,Residential,Glenwood,South,2024-08-10
+319,Thomas Garcia,Residential,Lakeshore,North,2022-07-16
+320,Steven Williams,Residential,Oakdale,Central,2025-07-01
+321,Barbara Wilson,Residential,Lakeshore,North,2023-02-21
+322,Apex Holdings,Commercial,Brookfield,East,2025-08-19
+323,Jessica Clark,Residential,Lakeshore,North,2024-09-15
+324,Nancy Thomas,Residential,Riverton,East,2025-12-15
+325,Patricia Martinez,Residential,Cedar Falls,West,2023-05-04
+326,Elizabeth Moore,Residential,Oakdale,Central,2025-03-30
+327,Lisa Brown,Residential,Glenwood,South,2023-10-31
+328,Daniel Wilson,Residential,Brookfield,East,2025-11-26
+329,Jennifer Ramirez,Residential,Northwind,North,2026-03-08
+330,Barbara Hernandez,Residential,Brookfield,East,2026-04-06
+331,Sarah Martinez,Residential,Fairview,South,2024-01-02
+332,Michael Gonzalez,Residential,Northwind,North,2023-11-23
+333,Richard Brown,Residential,Glenwood,South,2026-01-12
+334,Ashley Jackson,Residential,Maple Grove,West,2022-07-02
+335,Thomas Smith,Residential,Lakeshore,North,2024-04-15
+336,Summit Properties,Commercial,Oakdale,Central,2024-03-18
+337,John Rodriguez,Residential,Oakdale,Central,2022-12-23
+338,Richard Thomas,Residential,Cedar Falls,West,2023-03-14
+339,Apex Holdings,Commercial,Lakeshore,North,2023-07-05
+340,Richard Moore,Residential,Riverton,East,2022-11-07
+341,David Moore,Residential,Lakeshore,North,2022-11-15
+342,Anchor Holdings,Commercial,Maple Grove,West,2024-12-23
+343,Patricia Ramirez,Residential,Pinehurst,Central,2023-02-08
+344,Summit Properties,Commercial,Lakeshore,North,2026-03-04
+345,Mark Brown,Residential,Cedar Falls,West,2026-02-06
+346,Jessica Thomas,Residential,Cedar Falls,West,2022-10-14
+347,Apex Properties,Commercial,Cedar Falls,West,2026-03-23
+348,Michael White,Residential,Glenwood,South,2025-01-15
+349,Daniel Harris,Residential,Oakdale,Central,2022-07-04
+350,Anchor Holdings,Commercial,Oakdale,Central,2022-10-22
+351,Karen Williams,Residential,Riverton,East,2022-07-03
+352,Anchor Retail,Commercial,Lakeshore,North,2024-01-30
+353,Lisa Martin,Residential,Brookfield,East,2025-07-08
+354,Vista Holdings,Commercial,Glenwood,South,2022-08-15
+355,Patricia Wilson,Residential,Fairview,South,2023-05-07
+356,Maria Gonzalez,Residential,Maple Grove,West,2025-01-02
+357,Steven Gonzalez,Residential,Maple Grove,West,2024-07-13
+358,Anchor Group,Commercial,Riverton,East,2024-07-06
+359,Richard Johnson,Residential,Brookfield,East,2022-09-18
+360,Charles Lee,Residential,Brookfield,East,2023-04-22
+361,Apex Logistics,Commercial,Oakdale,Central,2023-12-26
+362,David Thomas,Residential,Cedar Falls,West,2022-08-05
+363,Anchor Retail,Commercial,Riverton,East,2024-12-07
+364,Vista Holdings,Commercial,Brookfield,East,2025-10-28
+365,Jessica Perez,Residential,Oakdale,Central,2023-03-02
+366,Vista Properties,Commercial,Fairview,South,2022-08-03
+367,Mark Johnson,Residential,Fairview,South,2024-06-03
+368,Anchor Group,Commercial,Lakeshore,North,2023-05-11
+369,Joseph Johnson,Residential,Riverton,East,2023-07-18
+370,Vista Properties,Commercial,Maple Grove,West,2022-05-23
+371,John Martinez,Residential,Brookfield,East,2022-09-03
+372,Anchor Retail,Commercial,Brookfield,East,2023-07-12
+373,Elizabeth Gonzalez,Residential,Glenwood,South,2023-12-16
+374,Lisa Moore,Residential,Glenwood,South,2024-10-15
+375,Harbor Properties,Commercial,Oakdale,Central,2022-06-15
+376,Sarah Lopez,Residential,Oakdale,Central,2025-10-20
+377,William Sanchez,Residential,Pinehurst,Central,2023-02-02
+378,Richard Wilson,Residential,Cedar Falls,West,2023-03-14
+379,Anthony Lewis,Residential,Lakeshore,North,2025-03-07
+380,Susan Williams,Residential,Riverton,East,2024-07-14
+381,Steven Davis,Residential,Brookfield,East,2022-05-31
+382,Ashley Williams,Residential,Riverton,East,2026-03-27
+383,Elizabeth Robinson,Residential,Oakdale,Central,2024-01-29
+384,Anchor Logistics,Commercial,Brookfield,East,2022-10-15
+385,Betty Smith,Residential,Northwind,North,2023-07-15
+386,Michael Williams,Residential,Glenwood,South,2024-02-07
+387,Sandra Robinson,Residential,Riverton,East,2022-07-07
+388,Vista Holdings,Commercial,Riverton,East,2025-06-03
+389,Matthew Robinson,Residential,Glenwood,South,2025-10-05
+390,Thomas Wilson,Residential,Lakeshore,North,2024-11-11
+391,Susan Perez,Residential,Oakdale,Central,2022-05-31
+392,Susan Martinez,Residential,Brookfield,East,2023-03-13
+393,Charles Miller,Residential,Maple Grove,West,2025-08-29
+394,Barbara Lee,Residential,Lakeshore,North,2025-10-07
+395,Vista Retail,Commercial,Lakeshore,North,2023-01-09
+396,James Lewis,Residential,Pinehurst,Central,2022-11-07
+397,Vista Properties,Commercial,Northwind,North,2024-11-25
+398,Richard Wilson,Residential,Glenwood,South,2025-01-20
+399,Nancy Sanchez,Residential,Oakdale,Central,2023-08-30
+400,Anchor Group,Commercial,Cedar Falls,West,2025-11-01
+401,Harbor Retail,Commercial,Glenwood,South,2025-12-04
+402,James Hernandez,Residential,Oakdale,Central,2024-04-26
+403,Karen Thompson,Residential,Cedar Falls,West,2026-05-05
+404,James Brown,Residential,Northwind,North,2023-10-07
+405,Harbor Properties,Commercial,Fairview,South,2022-12-19
+406,Patricia Lee,Residential,Maple Grove,West,2022-10-16
+407,David Wilson,Residential,Cedar Falls,West,2022-11-14
+408,Harbor Logistics,Commercial,Brookfield,East,2025-10-19
+409,Anchor Logistics,Commercial,Lakeshore,North,2025-01-13
+410,Betty Jones,Residential,Cedar Falls,West,2022-06-08
+411,David Perez,Residential,Glenwood,South,2022-09-15
+412,Matthew Lewis,Residential,Riverton,East,2025-01-11
+413,Vista Group,Commercial,Pinehurst,Central,2026-05-06
+414,James Wilson,Residential,Oakdale,Central,2024-12-03
+415,Jennifer Robinson,Residential,Oakdale,Central,2025-05-24
+416,William Davis,Residential,Riverton,East,2025-04-01
+417,Karen Thompson,Residential,Fairview,South,2025-04-19
+418,Patricia Thompson,Residential,Lakeshore,North,2024-10-01
+419,Harbor Logistics,Commercial,Oakdale,Central,2024-09-22
+420,Anchor Retail,Commercial,Oakdale,Central,2025-09-10
+421,Karen Sanchez,Residential,Glenwood,South,2023-06-26
+422,Matthew Johnson,Residential,Riverton,East,2023-02-10
+423,Thomas White,Residential,Glenwood,South,2025-06-24
+424,Richard Rodriguez,Residential,Brookfield,East,2024-06-23
+425,Anthony Ramirez,Residential,Pinehurst,Central,2023-04-23
+426,Michael Anderson,Residential,Oakdale,Central,2024-04-21
+427,Elizabeth Brown,Residential,Brookfield,East,2025-02-17
+428,Apex Retail,Commercial,Lakeshore,North,2024-02-25
+429,David Garcia,Residential,Fairview,South,2023-03-27
+430,Summit Properties,Commercial,Maple Grove,West,2023-06-25
+431,Sandra Martin,Residential,Lakeshore,North,2022-07-14
+432,Michael Lewis,Residential,Maple Grove,West,2025-06-03
+433,Matthew Wilson,Residential,Fairview,South,2025-01-20
+434,Vista Holdings,Commercial,Oakdale,Central,2024-04-20
+435,Michael Jackson,Residential,Oakdale,Central,2026-03-26
+436,Patricia Garcia,Residential,Pinehurst,Central,2024-09-09
+437,Karen Williams,Residential,Pinehurst,Central,2022-10-09
+438,Barbara White,Residential,Northwind,North,2023-01-31
+439,Mark Perez,Residential,Riverton,East,2024-03-17
+440,Vista Retail,Commercial,Maple Grove,West,2023-05-24
+441,Jennifer Wilson,Residential,Riverton,East,2025-11-16
+442,Sandra Smith,Residential,Riverton,East,2025-05-13
+443,Anchor Properties,Commercial,Pinehurst,Central,2022-10-30
+444,Karen Gonzalez,Residential,Brookfield,East,2026-01-10
+445,Ashley Martinez,Residential,Fairview,South,2026-02-23
+446,Harbor Group,Commercial,Fairview,South,2025-02-01
+447,Harbor Properties,Commercial,Riverton,East,2024-02-11
+448,Lisa Gonzalez,Residential,Maple Grove,West,2025-11-27
+449,Nancy Ramirez,Residential,Glenwood,South,2024-12-21
+450,Harbor Logistics,Commercial,Brookfield,East,2024-08-10
+451,Ashley Ramirez,Residential,Maple Grove,West,2025-08-15
+452,Lisa Thompson,Residential,Oakdale,Central,2023-11-19
+453,Harbor Holdings,Commercial,Northwind,North,2026-05-05
+454,Vista Properties,Commercial,Northwind,North,2024-02-09
+455,Jessica Gonzalez,Residential,Glenwood,South,2024-02-13
+456,Richard Lewis,Residential,Fairview,South,2025-01-23
+457,Nancy Lopez,Residential,Pinehurst,Central,2026-01-25
+458,Elizabeth Jones,Residential,Cedar Falls,West,2022-06-10
+459,Sarah Williams,Residential,Maple Grove,West,2023-04-06
+460,Lisa Jones,Residential,Riverton,East,2025-03-25
+461,Ashley Brown,Residential,Lakeshore,North,2023-01-10
+462,Robert Lopez,Residential,Riverton,East,2025-10-11
+463,David Gonzalez,Residential,Oakdale,Central,2023-10-07
+464,David Brown,Residential,Brookfield,East,2025-03-21
+465,Jessica Gonzalez,Residential,Brookfield,East,2023-12-15
+466,Matthew Clark,Residential,Lakeshore,North,2023-02-03
+467,Barbara Sanchez,Residential,Cedar Falls,West,2026-01-12
+468,Joseph Thompson,Residential,Lakeshore,North,2022-08-09
+469,Apex Group,Commercial,Oakdale,Central,2023-01-26
+470,Jessica Thompson,Residential,Northwind,North,2026-04-05
+471,Vista Group,Commercial,Brookfield,East,2023-11-07
+472,John Lee,Residential,Oakdale,Central,2025-02-02
+473,Patricia Thompson,Residential,Brookfield,East,2024-08-21
+474,Barbara Ramirez,Residential,Glenwood,South,2023-04-09
+475,Ashley Lopez,Residential,Lakeshore,North,2025-08-25
+476,Sarah Lopez,Residential,Fairview,South,2023-03-04
+477,Anchor Group,Commercial,Glenwood,South,2024-03-09
+478,Apex Properties,Commercial,Maple Grove,West,2022-08-19
+479,Lisa Miller,Residential,Northwind,North,2025-02-28
+480,Vista Retail,Commercial,Northwind,North,2025-11-25
+481,Daniel Davis,Residential,Fairview,South,2022-08-14
+482,Betty Thompson,Residential,Cedar Falls,West,2022-11-04
+483,Maria Martinez,Residential,Glenwood,South,2024-01-06
+484,Harbor Holdings,Commercial,Cedar Falls,West,2026-01-15
+485,Harbor Group,Commercial,Riverton,East,2026-03-07
+486,Linda Anderson,Residential,Brookfield,East,2024-03-21
+487,Vista Logistics,Commercial,Brookfield,East,2022-11-20
+488,Vista Group,Commercial,Glenwood,South,2024-03-15
+489,Steven Hernandez,Residential,Pinehurst,Central,2025-09-10
+490,William Thomas,Residential,Northwind,North,2022-12-17
+491,Apex Properties,Commercial,Pinehurst,Central,2024-10-26
+492,Harbor Holdings,Commercial,Brookfield,East,2025-01-13
+493,Elizabeth Martin,Residential,Northwind,North,2022-06-19
+494,Vista Group,Commercial,Oakdale,Central,2024-01-16
+495,Apex Holdings,Commercial,Cedar Falls,West,2025-09-18
+496,Barbara Thompson,Residential,Lakeshore,North,2022-05-17
+497,Vista Holdings,Commercial,Maple Grove,West,2025-03-30
+498,Joseph Wilson,Residential,Riverton,East,2022-10-12
+499,Summit Group,Commercial,Northwind,North,2024-09-05
+500,Nancy Jackson,Residential,Glenwood,South,2023-06-09
+501,Harbor Group,Commercial,Glenwood,South,2025-06-21
+502,Barbara Perez,Residential,Lakeshore,North,2022-09-22
+503,Sarah Lopez,Residential,Brookfield,East,2023-11-08
+504,Jessica Ramirez,Residential,Glenwood,South,2025-04-09
+505,Nancy Martin,Residential,Maple Grove,West,2025-11-17
+506,David White,Residential,Riverton,East,2023-12-23
+507,Patricia Sanchez,Residential,Riverton,East,2025-08-08
+508,Mark Thompson,Residential,Fairview,South,2022-05-15
+509,Steven Taylor,Residential,Oakdale,Central,2026-04-07
+510,Linda Gonzalez,Residential,Brookfield,East,2024-01-18
+511,Susan Johnson,Residential,Fairview,South,2023-07-26
+512,Matthew Williams,Residential,Riverton,East,2025-08-17
+513,James Harris,Residential,Maple Grove,West,2024-05-24
+514,Karen Robinson,Residential,Oakdale,Central,2023-03-21
+515,Susan Lewis,Residential,Fairview,South,2024-05-22
+516,Lisa Robinson,Residential,Fairview,South,2023-05-22
+517,Susan Garcia,Residential,Fairview,South,2022-08-04
+518,John Lewis,Residential,Maple Grove,West,2023-11-07
+519,Vista Holdings,Commercial,Northwind,North,2025-09-21
+520,Summit Group,Commercial,Brookfield,East,2023-04-27
+521,Vista Logistics,Commercial,Brookfield,East,2022-11-23
+522,Harbor Retail,Commercial,Brookfield,East,2025-09-04
+523,Anchor Holdings,Commercial,Cedar Falls,West,2025-03-08
+524,Barbara Jackson,Residential,Cedar Falls,West,2025-12-14
+525,Linda Smith,Residential,Brookfield,East,2022-10-09
+526,Richard Davis,Residential,Lakeshore,North,2025-03-16
+527,Sandra Sanchez,Residential,Lakeshore,North,2025-02-08
+528,Anchor Retail,Commercial,Brookfield,East,2026-04-19
+529,Jennifer Moore,Residential,Lakeshore,North,2023-10-08
+530,Barbara Moore,Residential,Lakeshore,North,2024-09-23
+531,Mark Harris,Residential,Pinehurst,Central,2024-08-06
+532,Linda Miller,Residential,Pinehurst,Central,2023-07-30
+533,Matthew Martin,Residential,Oakdale,Central,2023-08-30
+534,Thomas Lopez,Residential,Riverton,East,2024-05-27
+535,Michael Robinson,Residential,Cedar Falls,West,2024-08-03
+536,Joseph Rodriguez,Residential,Pinehurst,Central,2022-08-07
+537,Anchor Retail,Commercial,Brookfield,East,2022-07-21
+538,Apex Properties,Commercial,Pinehurst,Central,2025-12-12
+539,Anthony Johnson,Residential,Pinehurst,Central,2025-01-26
+540,Karen Lopez,Residential,Oakdale,Central,2024-04-06
+541,Jessica Lee,Residential,Maple Grove,West,2022-05-21
+542,David Moore,Residential,Brookfield,East,2023-10-31
+543,Anchor Retail,Commercial,Northwind,North,2023-08-24
+544,Linda Ramirez,Residential,Northwind,North,2023-09-17
+545,Summit Holdings,Commercial,Glenwood,South,2024-04-24
+546,Mark Perez,Residential,Fairview,South,2023-12-24
+547,Charles Davis,Residential,Maple Grove,West,2024-07-15
+548,Matthew Martinez,Residential,Pinehurst,Central,2022-11-30
+549,Summit Properties,Commercial,Riverton,East,2023-03-23
+550,Vista Properties,Commercial,Cedar Falls,West,2023-03-10
+551,Elizabeth Robinson,Residential,Pinehurst,Central,2024-03-05
+552,Apex Properties,Commercial,Northwind,North,2024-02-06
+553,Nancy Lopez,Residential,Maple Grove,West,2025-02-25
+554,Daniel Johnson,Residential,Riverton,East,2025-11-19
+555,Anchor Properties,Commercial,Cedar Falls,West,2024-05-08
+556,Linda Smith,Residential,Fairview,South,2022-08-07
+557,Ashley Davis,Residential,Brookfield,East,2023-07-17
+558,Anchor Holdings,Commercial,Pinehurst,Central,2022-05-20
+559,Matthew Hernandez,Residential,Lakeshore,North,2025-03-23
+560,Harbor Group,Commercial,Riverton,East,2023-12-27
+561,Michael Davis,Residential,Glenwood,South,2025-06-30
+562,Jennifer Lewis,Residential,Lakeshore,North,2023-01-26
+563,Apex Properties,Commercial,Northwind,North,2023-03-20
+564,Vista Retail,Commercial,Lakeshore,North,2026-05-16
+565,Thomas Brown,Residential,Cedar Falls,West,2023-07-02
+566,Anchor Logistics,Commercial,Lakeshore,North,2023-07-07
+567,William Perez,Residential,Brookfield,East,2022-10-01
+568,Barbara Gonzalez,Residential,Riverton,East,2024-09-22
+569,Barbara Lopez,Residential,Maple Grove,West,2024-07-12
+570,Joseph Martin,Residential,Cedar Falls,West,2022-10-05
+571,Patricia Lopez,Residential,Fairview,South,2022-09-07
+572,Steven Ramirez,Residential,Brookfield,East,2025-07-30
+573,Betty Jackson,Residential,Pinehurst,Central,2023-04-29
+574,Vista Retail,Commercial,Cedar Falls,West,2024-04-19
+575,William Sanchez,Residential,Oakdale,Central,2024-06-16
+576,Anthony Williams,Residential,Fairview,South,2024-07-18
+577,Robert Jackson,Residential,Cedar Falls,West,2022-07-08
+578,Elizabeth Robinson,Residential,Brookfield,East,2022-06-11
+579,Susan Moore,Residential,Maple Grove,West,2023-09-14
+580,Elizabeth White,Residential,Riverton,East,2026-01-04
+581,Richard Ramirez,Residential,Northwind,North,2022-08-19
+582,Linda Davis,Residential,Pinehurst,Central,2024-04-14
+583,Barbara Jackson,Residential,Riverton,East,2023-08-03
+584,Mark Jones,Residential,Lakeshore,North,2025-08-03
+585,Lisa Williams,Residential,Glenwood,South,2024-08-10
+586,Vista Holdings,Commercial,Fairview,South,2025-11-04
+587,Michael Moore,Residential,Northwind,North,2025-11-14
+588,Robert Perez,Residential,Glenwood,South,2022-07-06
+589,Anchor Properties,Commercial,Fairview,South,2024-12-09
+590,Anthony Miller,Residential,Pinehurst,Central,2025-03-11
+591,Vista Properties,Commercial,Cedar Falls,West,2023-06-15
+592,Michael Lopez,Residential,Northwind,North,2025-07-01
+593,Jennifer Miller,Residential,Lakeshore,North,2026-03-16
+594,Anchor Retail,Commercial,Fairview,South,2026-05-12
+595,Jessica Jones,Residential,Fairview,South,2022-09-08
+596,John Moore,Residential,Pinehurst,Central,2022-09-21
+597,John Anderson,Residential,Northwind,North,2025-09-08
+598,Steven Anderson,Residential,Northwind,North,2023-04-03
+599,Daniel Sanchez,Residential,Glenwood,South,2023-02-06
+600,Thomas Davis,Residential,Maple Grove,West,2023-01-09
