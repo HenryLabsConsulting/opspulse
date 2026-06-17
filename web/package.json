@@ -1,0 +1,30 @@
+{
+  "name": "opspulse-web",
+  "version": "1.0.0",
+  "private": true,
+  "description": "OpsPulse operations-analytics dashboard for Northwind Field Services.",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "test": "node --test"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.32.1",
+    "next": "^14.2.35",
+    "pg": "^8.13.1",
+    "react": "18.3.1",
+    "react-dom": "18.3.1",
+    "recharts": "^2.13.3"
+  },
+  "devDependencies": {
+    "@types/node": "^20.17.6",
+    "@types/pg": "^8.11.10",
+    "@types/react": "^18.3.12",
+    "@types/react-dom": "^18.3.1",
+    "eslint": "^8.57.1",
+    "eslint-config-next": "^14.2.35",
+    "typescript": "^5.6.3"
+  }
+}
