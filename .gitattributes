@@ -1,0 +1,7 @@
+# Normalize line endings to LF in the repository. This keeps Docker builds and
+# shell scripts working when the repo is cloned on Linux.
+* text=auto eol=lf
+
+*.png binary
+*.jpg binary
+*.svg text eol=lf
