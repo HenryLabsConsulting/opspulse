@@ -3,7 +3,7 @@ import "./globals.css";
 import { Nav } from "@/components/Nav";
 
 export const metadata: Metadata = {
-  title: "OpsPulse — Northwind Field Services",
+  title: "OpsPulse | Northwind Field Services",
   description:
     "Operations analytics for a field-service company. Revenue, jobs, first-time-fix, technician productivity, and an AI insights layer.",
 };
