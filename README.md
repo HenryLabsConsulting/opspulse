@@ -2,7 +2,7 @@
 
 **Operations analytics that turns raw field-service records into decisions leaders can act on.**
 
-OpsPulse shows a service company what is happening across its business in one place. Revenue, jobs completed, first-time-fix rate, average ticket, technician productivity, and job mix. A Daily Insights panel reads the latest week and writes a plain-language summary of what moved and why. The whole thing runs on one command and one hundred percent synthetic data.
+OpsPulse shows a service company what is happening across its business in one place. Revenue, jobs completed, first-time-fix rate, average ticket, technician productivity, and job mix. A Daily Insights panel reads the latest week and writes a plain-language summary of what moved and why. The whole thing runs with one command.
 
 This repository is a complete, deployed-shape application. It carries the data, the pipeline underneath, the API, the dashboard, the AI layer, and the infrastructure to run them together.
 
