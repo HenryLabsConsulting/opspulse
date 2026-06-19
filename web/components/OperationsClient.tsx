@@ -40,10 +40,13 @@ export function OperationsClient() {
     return <div className="loading">Loading operations...</div>;
   }
 
-  const topTechs = data.technicians.slice(0, 10).map((t) => ({
-    name: t.name.split(" ")[0] + " " + t.name.split(" ")[1]?.[0] + ".",
-    revenue: t.revenue,
-  }));
+  const topTechs = data.technicians.slice(0, 10).map((t) => {
+    const parts = t.name.split(" ");
+    return {
+      name: parts[1] ? `${parts[0]} ${parts[1][0]}.` : parts[0],
+      revenue: t.revenue,
+    };
+  });
 
   return (
     <>
