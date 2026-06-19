@@ -41,10 +41,10 @@ export async function getWeeklyMetrics(): Promise<WeeklyMetrics> {
   }>(`
     WITH periods AS (
       SELECT
-        (SELECT MAX(full_date) FROM dim_date)                       AS max_date,
-        (SELECT MAX(full_date) FROM dim_date) - INTERVAL '6 days'   AS cur_start,
-        (SELECT MAX(full_date) FROM dim_date) - INTERVAL '13 days'  AS prior_start,
-        (SELECT MAX(full_date) FROM dim_date) - INTERVAL '7 days'   AS prior_end
+        (SELECT MAX(d2.full_date) FROM fact_jobs f2 JOIN dim_date d2 ON d2.date_key = f2.date_key)                       AS max_date,
+        (SELECT MAX(d2.full_date) FROM fact_jobs f2 JOIN dim_date d2 ON d2.date_key = f2.date_key) - INTERVAL '6 days'   AS cur_start,
+        (SELECT MAX(d2.full_date) FROM fact_jobs f2 JOIN dim_date d2 ON d2.date_key = f2.date_key) - INTERVAL '13 days'  AS prior_start,
+        (SELECT MAX(d2.full_date) FROM fact_jobs f2 JOIN dim_date d2 ON d2.date_key = f2.date_key) - INTERVAL '7 days'   AS prior_end
     )
     SELECT
       to_char(MAX(p.max_date), 'YYYY-MM-DD') AS max_date,
@@ -76,7 +76,7 @@ export async function getWeeklyMetrics(): Promise<WeeklyMetrics> {
     JOIN dim_service_type s ON s.service_type_id = fj.service_type_id
     JOIN dim_date d ON d.date_key = fj.date_key
     WHERE fj.status = 'Completed'
-      AND d.full_date >= (SELECT MAX(full_date) FROM dim_date) - INTERVAL '6 days'
+      AND d.full_date >= (SELECT MAX(d2.full_date) FROM fact_jobs f2 JOIN dim_date d2 ON d2.date_key = f2.date_key) - INTERVAL '6 days'
     GROUP BY s.service_type
     ORDER BY revenue DESC
     LIMIT 1
@@ -88,7 +88,7 @@ export async function getWeeklyMetrics(): Promise<WeeklyMetrics> {
     JOIN dim_technician t ON t.technician_id = fj.technician_id
     JOIN dim_date d ON d.date_key = fj.date_key
     WHERE fj.status = 'Completed'
-      AND d.full_date >= (SELECT MAX(full_date) FROM dim_date) - INTERVAL '6 days'
+      AND d.full_date >= (SELECT MAX(d2.full_date) FROM fact_jobs f2 JOIN dim_date d2 ON d2.date_key = f2.date_key) - INTERVAL '6 days'
     GROUP BY t.name
     ORDER BY jobs DESC
     LIMIT 1
@@ -100,7 +100,7 @@ export async function getWeeklyMetrics(): Promise<WeeklyMetrics> {
         / NULLIF(COUNT(*), 0))::float8 AS booking_rate
     FROM fact_calls fc
     JOIN dim_date d ON d.date_key = fc.date_key
-    WHERE d.full_date >= (SELECT MAX(full_date) FROM dim_date) - INTERVAL '6 days'
+    WHERE d.full_date >= (SELECT MAX(d2.full_date) FROM fact_jobs f2 JOIN dim_date d2 ON d2.date_key = f2.date_key) - INTERVAL '6 days'
   `);
 
   const c = core[0];

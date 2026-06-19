@@ -39,10 +39,10 @@ export async function getOverviewKpis(): Promise<OverviewKpis> {
   }>(`
     WITH periods AS (
       SELECT
-        (SELECT MAX(full_date) FROM dim_date)                       AS max_date,
-        (SELECT MAX(full_date) FROM dim_date) - INTERVAL '29 days'  AS cur_start,
-        (SELECT MAX(full_date) FROM dim_date) - INTERVAL '59 days'  AS prior_start,
-        (SELECT MAX(full_date) FROM dim_date) - INTERVAL '30 days'  AS prior_end
+        (SELECT MAX(d2.full_date) FROM fact_jobs f2 JOIN dim_date d2 ON d2.date_key = f2.date_key)                       AS max_date,
+        (SELECT MAX(d2.full_date) FROM fact_jobs f2 JOIN dim_date d2 ON d2.date_key = f2.date_key) - INTERVAL '29 days'  AS cur_start,
+        (SELECT MAX(d2.full_date) FROM fact_jobs f2 JOIN dim_date d2 ON d2.date_key = f2.date_key) - INTERVAL '59 days'  AS prior_start,
+        (SELECT MAX(d2.full_date) FROM fact_jobs f2 JOIN dim_date d2 ON d2.date_key = f2.date_key) - INTERVAL '30 days'  AS prior_end
     )
     SELECT
       COALESCE(SUM(fj.revenue) FILTER (
