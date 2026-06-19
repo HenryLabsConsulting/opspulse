@@ -6,9 +6,11 @@ OpsPulse shows a service company what is happening across its business in one pl
 
 This repository is a complete, deployed-shape application. It carries the data, the pipeline underneath, the API, the dashboard, the AI layer, and the infrastructure to run them together.
 
-![OpsPulse dashboard](docs/dashboard-preview.svg)
+![OpsPulse dashboard](docs/dashboard.png)
 
 > Live demo: _coming soon at_ `https://demo.henrylabs.net` _(run it locally today with the quick start below)._
+
+*Built as a standalone, synthetic-data demo, modeled on the kind of operations-analytics system I build for service-business clients.*
 
 ---
 
