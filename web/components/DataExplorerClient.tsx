@@ -105,7 +105,7 @@ export function DataExplorerClient() {
     return Array.from(map.entries())
       .map(([key, g]) => ({
         key,
-        jobs: g.jobs,
+        jobs: g.completed,
         revenue: g.revenue,
         avgDuration: g.completed ? g.duration / g.completed : 0,
         ftfRate: g.completed ? g.ftf / g.completed : 0,
