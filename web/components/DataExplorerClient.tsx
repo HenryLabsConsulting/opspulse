@@ -95,9 +95,9 @@ export function DataExplorerClient() {
       const g = map.get(key) ?? { jobs: 0, completed: 0, revenue: 0, ftf: 0, duration: 0 };
       g.jobs += 1;
       g.revenue += r.revenue;
-      g.duration += r.durationMinutes;
       if (r.status === "Completed") {
         g.completed += 1;
+        g.duration += r.durationMinutes;
         if (r.firstTimeFix) g.ftf += 1;
       }
       map.set(key, g);
@@ -107,7 +107,7 @@ export function DataExplorerClient() {
         key,
         jobs: g.jobs,
         revenue: g.revenue,
-        avgDuration: g.duration / g.jobs,
+        avgDuration: g.completed ? g.duration / g.completed : 0,
         ftfRate: g.completed ? g.ftf / g.completed : 0,
       }))
       .sort((a, b) => b.revenue - a.revenue);
