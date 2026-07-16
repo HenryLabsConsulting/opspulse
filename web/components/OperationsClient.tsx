@@ -28,13 +28,21 @@ const CATEGORY_COLORS: Record<string, string> = {
 
 export function OperationsClient() {
   const [data, setData] = useState<OperationsData | null>(null);
+  const [error, setError] = useState(false);
 
   useEffect(() => {
     fetch("/api/operations")
-      .then((r) => r.json())
+      .then((r) => {
+        if (!r.ok) throw new Error(`Request failed: ${r.status}`);
+        return r.json();
+      })
       .then(setData)
-      .catch(() => setData(null));
+      .catch(() => setError(true));
   }, []);
+
+  if (error) {
+    return <div className="loading">Failed to load operations. Please refresh.</div>;
+  }
 
   if (!data) {
     return <div className="loading">Loading operations...</div>;

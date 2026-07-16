@@ -11,13 +11,21 @@ type OverviewData = { kpis: OverviewKpis; trend: TrendPoint[] };
 
 export function OverviewClient() {
   const [data, setData] = useState<OverviewData | null>(null);
+  const [error, setError] = useState(false);
 
   useEffect(() => {
     fetch("/api/overview")
-      .then((r) => r.json())
+      .then((r) => {
+        if (!r.ok) throw new Error(`Request failed: ${r.status}`);
+        return r.json();
+      })
       .then(setData)
-      .catch(() => setData(null));
+      .catch(() => setError(true));
   }, []);
+
+  if (error) {
+    return <div className="loading">Failed to load dashboard. Please refresh.</div>;
+  }
 
   if (!data) {
     return <div className="loading">Loading dashboard...</div>;
